@@ -1,0 +1,76 @@
+2021/07/29 19:13:28.688|Info|Push 3
+2021/07/29 19:19:42.628|Info|per 4
+2021/07/29 19:19:42.708|Error|System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: type
+   в System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   в System.Activator.CreateInstance(Type type)
+   в StackCalk.Factory.Create(String operation) в \\Mac\Home\Documents\programing\C#\StackCalc\StackCalk\Factory.cs:строка 25
+   в StackCalk.Program.Main(String[] args) в \\Mac\Home\Documents\programing\C#\StackCalc\StackCalk\Program.cs:строка 35
+2022/10/23 17:54:24.031|Info|+25
+2022/10/23 17:54:24.072|Error|System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00003] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.Factory.Create (System.String operation) [0x00047] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00049] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 17:55:11.579|Info|+ 2 5
+2022/10/23 17:55:11.619|Error|System.InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].Pop () [0x00016] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.PlusCommand.Execute (StackCalk.Context context, System.Collections.Generic.List`1[T] arg) [0x00001] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00062] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 17:57:58.243|Info|+ 25
+2022/10/23 17:57:58.244|Error|System.InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].Pop () [0x00016] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.PlusCommand.Execute (StackCalk.Context context, System.Collections.Generic.List`1[T] arg) [0x00001] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00062] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 17:58:01.006|Info|С†
+2022/10/23 17:58:01.007|Error|System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00003] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.Factory.Create (System.String operation) [0x00047] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00049] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 17:58:35.766|Info|+ 4 5
+2022/10/23 17:58:35.767|Error|System.InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].Pop () [0x00016] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.PlusCommand.Execute (StackCalk.Context context, System.Collections.Generic.List`1[T] arg) [0x00001] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00062] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 17:59:13.109|Info|stop
+2022/10/23 17:59:13.110|Error|System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00003] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.Factory.Create (System.String operation) [0x00047] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00049] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 18:05:54.256|Info|push 10
+2022/10/23 18:06:24.322|Info|push 4
+2022/10/23 18:06:27.055|Info|plus
+2022/10/23 18:06:27.058|Error|System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00003] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.Factory.Create (System.String operation) [0x00047] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00049] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 18:07:20.801|Info|print
+2022/10/23 18:07:30.497|Info|push 2
+2022/10/23 18:07:32.345|Info|print
+2022/10/23 18:08:16.277|Info|*
+2022/10/23 18:08:23.599|Info|print
+2022/10/23 18:08:26.702|Info|*
+2022/10/23 18:08:28.634|Info|print
+2022/10/23 18:08:43.196|Info|[rint
+2022/10/23 18:08:43.197|Error|System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic, System.Boolean wrapExceptions) [0x00003] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at System.Activator.CreateInstance (System.Type type) [0x00000] in <b27839cc2dba4804baacf2f5cce6de32>:0 
+  at StackCalk.Factory.Create (System.String operation) [0x00047] in <99b6799f66824c59b093c0d1a5af125d>:0 
+  at StackCalk.Program.Main (System.String[] args) [0x00049] in <99b6799f66824c59b093c0d1a5af125d>:0 
+2022/10/23 18:08:45.527|Info|print
+2022/10/23 18:09:02.025|Info|push 2
+2022/10/23 18:09:04.254|Info|+
+2022/10/23 18:09:06.488|Info|print
